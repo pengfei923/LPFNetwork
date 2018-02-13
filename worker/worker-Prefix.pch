@@ -1,0 +1,35 @@
+//
+//  worker-Prefix.pch
+//  worker
+//
+//  Created by 李鹏飞 on 2018/2/12.
+//  Copyright © 2018年 hoomsun. All rights reserved.
+//
+
+#ifndef worker_Prefix_pch
+#define worker_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// 判断屏幕尺寸
+#define iphone4x_3_5 ([UIScreen mainScreen].bounds.size.height==480.0f)
+#define iphone5x_4_0 ([UIScreen mainScreen].bounds.size.height==568.0f)
+#define iphone6_4_7 ([UIScreen mainScreen].bounds.size.height==667.0f)
+#define iphonePlus_5_5 ([UIScreen mainScreen].bounds.size.height==736.0f && [UIScreen mainScreen].bounds.size.width==414.0f)
+// 屏幕宽度、高度
+#define kScreenWidth        [[UIScreen mainScreen] bounds].size.width
+#define kScreenHeight       [[UIScreen mainScreen] bounds].size.height
+#define adViewHeight        (kScreenWidth-40)*22/67+262    // 首页轮播图高度
+
+#import <UIKit/UIKit.h>
+#import "HSInterface.h"
+#import "HSLoginInfo.h"
+#import <AFNetworking/AFNetworking.h>
+#import "NSString+HXString.h"
+#import "UIViewController+CustomController.h"
+#import <YYKit/YYKit.h>
+#import <SVProgressHUD/SVProgressHUD.h>
+#import "ConfirmAlertController.h"
+#import "UIView+HSView.h"
+#endif /* worker_Prefix_pch */
