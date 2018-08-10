@@ -18,4 +18,5 @@ pod 'SDCycleScrollView'
 pod 'SocketRocket'
 pod 'LLSegmentBar'
 pod 'YYKit'
+pod 'QMUIKit'
 end

@@ -478,7 +478,6 @@
 				B20BE1FA203174270086DFD6 /* Sources */,
 				B20BE1FB203174270086DFD6 /* Frameworks */,
 				B20BE1FC203174270086DFD6 /* Resources */,
-				492A6D5F615B2A7B90C39031 /* [CP] Embed Pods Frameworks */,
 				41845A47D211BF1F1C727F2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -609,32 +608,19 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-worker/Pods-worker-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-worker/Pods-worker-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		492A6D5F615B2A7B90C39031 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-worker/Pods-worker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		61924461A96691F262247CEC /* [CP] Check Pods Manifest.lock */ = {
